@@ -5,7 +5,7 @@ from azure.mgmt.datafactory.models import *
 from azure.core.exceptions import ResourceExistsError, ResourceNotFoundError
 from azure.keyvault.secrets import SecretClient
 
-
+#creates a copy activity that moves raw data from SQL server database to azure data lake storage
 
 from azure.storage.blob import BlobServiceClient
 

@@ -7,6 +7,7 @@ from azure.storage.blob import BlobServiceClient
 import textwrap
 import logging 
 
+#creates a databricks activity in azure data factory using the "silver to gold" notebook 
 
 def main():
 

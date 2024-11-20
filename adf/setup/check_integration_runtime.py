@@ -4,6 +4,7 @@ from azure.mgmt.datafactory import DataFactoryManagementClient
 from azure.mgmt.datafactory.models import *
 from azure.core.exceptions import ResourceExistsError, ResourceNotFoundError
 
+#checks available integration runtimes
 
 
 from azure.storage.blob import BlobServiceClient

@@ -3,6 +3,7 @@ from azure.graphrbac import GraphRbacManagementClient
 from azure.mgmt.authorization import AuthorizationManagementClient
 import requests 
 
+#creates a security group in azure active directory and adds the user into the group
 
 def main():
 

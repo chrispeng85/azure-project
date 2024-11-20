@@ -1,6 +1,8 @@
 USE gold_db
 GO
 
+--creates a stored procedure that creates a view for all files
+
 CREATE OR ALTER PROC CreateSQLServerlessView_gold @ViewName nvchar(100)
 
 AS 

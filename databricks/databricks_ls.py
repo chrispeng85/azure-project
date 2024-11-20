@@ -6,7 +6,7 @@ from azure.storage.blob import BlobServiceClient
 from datetime import datetime 
 from azure.keyvault.secrets import SecretClient
 
-
+#creates a linked service to azure databricks using databricks token as credential
 
 
 def main():

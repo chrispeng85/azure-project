@@ -7,6 +7,7 @@ from datetime import datetime
 
 from azure.keyvault.secrets import SecretClient
 
+#creates bronze, silver and gold containers within the storage account
 
 def main():
     

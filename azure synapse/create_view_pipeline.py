@@ -2,6 +2,9 @@ from azure.synapse.artifacts.models import *
 from azure.synapse.artifacts import ArtifactsClient
 from azure.identity import DefaultAzureCredential
 
+#creates a pipeline made up of a GetMetadata activity and a ForEach activity, the former retrieves the table names of the files from 
+#gold layer, and the latter applies a stored SQL procedure on the former's output to produce a view for each of the tables
+
 def main():
 
     subscription_id = "e7b6d171-1d67-440f-a8e4-2e1588380c2d"

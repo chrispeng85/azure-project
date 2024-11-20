@@ -10,6 +10,10 @@ import logging
 logging.basicConfig(level = logging.INFO)
 logger = logging.getLogger(__name__)
 
+#creates a lookup activity, which retrieves the schema & table name of all files, and a for each activity with copy activity nested 
+#within, to copy all files using the output of the lookup activity
+
+
 def verify_linked_service(subscription_id, rg_name, df_name, ls_name):
 
     #verifies the linked service exists

@@ -4,7 +4,7 @@ from azure.mgmt.datafactory import DataFactoryManagementClient
 from azure.mgmt.datafactory.models import *
 from azure.keyvault.secrets import SecretClient
 
-
+#creates a linked service to on-prem sql server database using login credentials stored in azure key vault
 
 def get_key_vault_secret(key_vault_url, secret_name):
 
